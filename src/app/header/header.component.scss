@@ -1,0 +1,35 @@
+@media (max-width:1000px) {
+    .menu-button {
+        font-size: 16px;
+        margin-top: 20px !important;
+        border: 0px;
+        width: 33vw;
+        background-color: transparent;
+    }
+}
+
+
+@media (min-width:1000px) { 
+
+    .header-menu {
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+
+    .menu-button {
+        font-size: larger;
+        margin-top: 20px !important;
+        margin: 30px;
+        border: 0px;
+        background-color: transparent;
+    }
+
+    .title {
+        position: absolute;
+        font-size: 50px;
+        margin-left: 200px;
+        margin-top: 65px;
+    }
+}
+
