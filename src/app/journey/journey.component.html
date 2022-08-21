@@ -1,2 +1,16 @@
 <div class="journey-container">
+    <mzd-timeline>
+        <mzd-timeline-content style="box-shadow: none;" *ngFor="let el of journeyElements">
+            <div class="journey-content">
+                <h1 class="text">{{el.title}}</h1>
+                <p class="text">{{el.description}}</p>
+                <div *ngIf="hasImage(el)" class="journey-img-container">
+                    <img class="journey-img" [src]="el.imgSource" />
+                </div>
+            </div>
+            <mzd-icon>
+                <img class="in-circle" src="../../assets/petter_modern_atom_logo_2d2c5d8d-d201-4c1b-b459-c47f50d2ddfc.png" />
+            </mzd-icon>
+        </mzd-timeline-content>
+    </mzd-timeline>
 </div>

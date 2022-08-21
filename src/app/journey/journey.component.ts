@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import journeyElements from './journeyElements';
 
 @Component({
   selector: 'app-journey',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./journey.component.scss']
 })
 export class JourneyComponent implements OnInit {
-
+  journeyElements = journeyElements
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  hasImage(el: any): boolean {
+    return el.imgSource == undefined ? false : el.imgSource.length > 0;
   }
 
 }

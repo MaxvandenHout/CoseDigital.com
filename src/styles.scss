@@ -69,3 +69,26 @@ body {
     }
 }
 
+mzd-timeline-content .mzd-timeline-card {
+    border-radius: 4px;
+    box-shadow: none !important;
+    padding: 16px;
+}
+
+mzd-timeline-content::after {
+   border: 2px solid rgb(196, 231, 245) !important;
+   background: rgb(196, 231, 245) !important;
+   border-right: none !important;
+   
+}
+
+mzd-timeline-content::before {
+   border: 2px solid rgb(196, 231, 245) !important;
+   background: rgb(196, 231, 245) !important;
+   border-right: none !important;
+   
+}
+
+mzd-timeline .mzd-timeline-line {
+   background: rgb(196, 231, 245) !important;
+ }

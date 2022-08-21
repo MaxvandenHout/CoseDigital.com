@@ -1,3 +1,33 @@
 .journey-container {
     min-height: 100vh;
-   }
+    padding: 20px;
+}
+
+.in-circle {
+    border: 2px solid rgb(196, 231, 245) !important;
+    border-radius: 100px;
+    left: -17px;
+    top: -16px;
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.journey-content {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.journey-img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+}
+
+.journey-img-container {
+
+}
