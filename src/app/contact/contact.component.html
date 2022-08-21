@@ -1,1 +1,17 @@
-<div class="contact-container"></div>
+<div class="contact-container">
+    <div class="email-container">
+        <div class="header-container">
+            <h1 class="text title">Contact</h1>
+            <button class="send-button text">Send</button>
+        </div>
+        <br />
+        <ngx-monaco-editor class="ngx-editor" [options]="editorOptions">
+        </ngx-monaco-editor>
+    </div>
+    
+    <div class="other-ways-of-contact">
+        <div *ngFor="let contact of contacts" class="tile" (click)="contactClicked(contact)">
+            <img class="in-card-logo" [src]="contact.imageSrc" />
+        </div>
+    </div>
+</div>
