@@ -6,7 +6,10 @@ import { HeaderComponent } from './header/header.component';
 import { InitialComponent } from './initial/initial.component';
 import { JourneyComponent } from './journey/journey.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 import { ContactComponent } from './contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    
+    BrowserAnimationsModule,
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
