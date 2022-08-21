@@ -17,16 +17,18 @@ export class ContactComponent implements OnInit {
   };
   code: string = '';
   constructor() { }
-
+  vpw = 0;
   contacts = contacts;
   ngOnInit(): void {
-  }
-
-  getColAmount(): number {
-    return Math.round((window.innerWidth * 0.4) / 100) > 3 ? 3 : (Math.floor((window.innerWidth * 0.4) / 100));
+    this.vpw = window.innerWidth;
   }
 
   contactClicked(contact: any) {
+    if (contact?.mail) {
+      var mailto_link = 'mailto:' + 'max@pineus.nl';
+      window.open(mailto_link, '_blank')
+    }
+
     window.open(contact.src, "_blank");
   }
 
