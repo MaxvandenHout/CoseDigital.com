@@ -12,8 +12,7 @@ export class ContactComponent implements OnInit {
   editorOptions = { 
     theme: 'vs-dark', 
     language: 'html',
-    outerHeight: 800
-
+    outerHeight: 800,
   };
   code: string = '';
   constructor() { }

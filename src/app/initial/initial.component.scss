@@ -79,5 +79,23 @@
     }
 }
 
+.main-img:hover {
+    filter: brightness(2);
+    -webkit-transition: filter 1s ease-out;
+    -moz-transition: filter 1s ease-out;
+    -o-transition: filter 1s ease-out;
+    -ms-transition: filter 1s ease-out;
+    transition: filter 1s ease-out;
+}
+
+.main-img {
+    filter: brightness(1);
+    -webkit-transition: filter 1s ease-out;
+    -moz-transition: filter 1s ease-out;
+    -o-transition: filter 1s ease-out;
+    -ms-transition: filter 1s ease-out;
+    transition: filter 1s ease-out;
+}
+
 
 
