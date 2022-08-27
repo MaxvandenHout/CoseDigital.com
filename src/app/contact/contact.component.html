@@ -2,10 +2,10 @@
     <div class="email-container">
         <div class="header-container">
             <h1 class="text title">Contact</h1>
-            <button class="send-button text">Send</button>
+            <button class="send-button text" (click)="send()">Send</button>
         </div>
         <br />
-        <ngx-monaco-editor class="ngx-editor" [options]="editorOptions">
+        <ngx-monaco-editor class="ngx-editor" [(ngModel)]="code" [options]="editorOptions">
         </ngx-monaco-editor>
     </div>
     

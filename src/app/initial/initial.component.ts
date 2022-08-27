@@ -12,12 +12,12 @@ export class InitialComponent implements OnInit {
 
   options = {
     strings: [
-      'Lorem ipsum dolor sit ametryrr, consectetur adipiscing elit', 
-      'consectetur adipiscing dlit Lorem ipsum dolor sit ametryrr,',
-      'Lorem ipsum dolor sit ametryrr, consectetur adipiscing elit', 
-      'consectetur adipiscing dlit Lorem ipsum dolor sit ametryrr,',
-      'Lorem ipsum dolor sit ametryrr, consectetur adipiscing elit', 
-      'consectetur adipiscing dlit Lorem ipsum dolor sit ametryrr,',
+      'Where code gets made', 
+      'Where code just works', 
+      'Where repetitive digital work cannot exist',
+      'Bringing you what you need', 
+      'Writing code that matters',
+      'Bringing all things web together', 
   ],
     typeSpeed: 30,
     loop: true

@@ -17,4 +17,10 @@ export class JourneyComponent implements OnInit {
     return el.imgSource == undefined ? false : el.imgSource.length > 0;
   }
 
+  goToUrl(el: any): void {
+    if (el?.url?.length > 0) {
+      window.open(el?.url, '_blank');
+    }
+  }
+
 }
