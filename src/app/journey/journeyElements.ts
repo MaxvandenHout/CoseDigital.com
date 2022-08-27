@@ -30,19 +30,7 @@ export default [
         description: 'One of the first projects I worked on for Scenius is Skilltrack. Skilltrack is a project started by Fontys to track the growth of their students on the EntreComb Framework. Being the only engineer on this project for a while made me understand responsibility.',
         imgSource: ''
     },
-    {
-        time: '2021',
-        title: 'Employar',
-        description: 'Employar was the first big project I was part of from the start and where I played a part in every step of the way, from brainstorming session with the client to deployment.',
-        imgSource: ''
-    },
-    {
-        time: '2020 - 2022',
-        title: 'In3',
-        url: 'https://payin3.nl',
-        description: 'With distance the most hours I coded were for In3. This fintech project has many moving parts and people working on it. Working on this project taught me a lot not only in coding but also in comminucating in a big team.',
-        imgSource: '../../assets/in3.jpg'
-    },
+    
     {
         time: '2021',
         title: 'Vega Favorieten',
@@ -57,10 +45,23 @@ export default [
         imgSource: '../../assets/bohinsjk.jpg'
     },
     {
+        time: '2021',
+        title: 'Employar',
+        description: 'Employar was the first big project I was part of from the start and where I played a part in every step of the way, from brainstorming session with the client to deployment.',
+        imgSource: ''
+    },
+    {
         time: 'Dec 2021 - Mar 2022',
-        title: 'Snowboard season in austria',
+        title: 'Snowboard season in Austria',
         description: 'During my trip around Europe I talked myself into a job as appartment complex manager in Austria. During this time I snowboarded almost daily while also still working for Scenius.',
         imgSource: ''
+    },   
+    {
+        time: '2020 - 2022',
+        title: 'In3',
+        url: 'https://payin3.nl',
+        description: 'With distance the most hours I coded were for In3. This fintech project has many moving parts and people working on it. Working on this project taught me a lot not only in coding but also in comminucating in a big team.',
+        imgSource: '../../assets/in3.jpg'
     },
     {
         time: 'Aug 2022 - Now',

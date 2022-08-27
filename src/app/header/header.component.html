@@ -1,7 +1,16 @@
 <!-- <img src="../../favicon.ico" class="icon"/> -->
 <!-- <h1 class="title text">Cose Digital</h1> -->
 <div class="header-menu">
-    <button (click)="scrollPage('journey')" class="menu-button text">Journey</button>
-    <button (click)="scrollPage('technologies')" class="menu-button text">About me</button>
-    <button (click)="scrollPage('contact')" class="menu-button text">Contact</button>
+    <button (click)="scrollPage('journey-start')" class="menu-button text">Journey</button>
+    <button (click)="scrollPage('technology-title')" class="menu-button text">About me</button>
+    <button (click)="scrollPage('contact-title')" class="menu-button text">Contact</button>
+
+    <button *ngIf="isLower" class="menu-button fixed text" mat-button [matMenuTriggerFor]="menu">
+        <img class="in-circle" src="../../assets/petter_modern_atom_logo_2d2c5d8d-d201-4c1b-b459-c47f50d2ddfc.png" />
+    </button>
+    <mat-menu #menu="matMenu" class="menu">
+        <button (click)="scrollPage('journey-start')" class="menu-button-lower">Journey</button>
+        <button (click)="scrollPage('technologies-title')" class="menu-button-lower">About me</button>
+        <button (click)="scrollPage('contact-title')" class="menu-button-lower">Contact</button>
+    </mat-menu>
 </div>

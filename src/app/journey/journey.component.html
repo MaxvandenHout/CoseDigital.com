@@ -1,6 +1,6 @@
 
 <div class="journey-container">
-    <mzd-timeline>
+    <mzd-timeline id="journey-start">
         <mzd-timeline-content style="box-shadow: none;" *ngFor="let el of journeyElements" (click)="goToUrl(el)">
             <div class="journey-content">
                 <div class="flexbox" *ngIf="hasImage(el)" >

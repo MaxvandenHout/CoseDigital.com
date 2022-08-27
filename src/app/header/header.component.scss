@@ -2,9 +2,24 @@
     .menu-button {
         font-size: 16px;
         margin-top: 20px !important;
+        // margin-bottom: 10px !important;
         border: 0px;
-        width: 32vw;
+        width: 33vw;
         background-color: transparent;
+    }
+
+    .open-button {
+        font-size: 16px;
+        margin-top: 20px !important;
+        background-color: transparent;
+        border: 0px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+
+    .fixed {
+        right: 10px !important;
     }
 }
 
@@ -33,4 +48,35 @@
     }
 }
 
+.open-button {
+        font-size: 16px;
+        margin-top: 20px !important;
+        background-color: transparent;
+        border: 0px;
+    }
 
+.fixed {
+    position: fixed;
+    z-index: 1000;
+    right: 114px;
+}
+
+.mat-menu-content {
+    background-color: black;
+}
+
+.menu-button-lower {
+    font-size: larger;
+    margin-top: 20px !important;
+    margin: 30px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.in-circle {
+    border: 2px solid rgb(196, 231, 245) !important;
+    border-radius: 100px;
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}

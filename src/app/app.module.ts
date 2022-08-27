@@ -12,6 +12,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MonacoEditorModule } from 'ngx-monaco-editor';
 import { ContactComponent } from './contact/contact.component';
 import { MzdTimelineModule } from 'ngx-mzd-timeline';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -29,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule,
+    MatMenuModule,
     MatTooltipModule,
     FormsModule,
     MzdTimelineModule,
